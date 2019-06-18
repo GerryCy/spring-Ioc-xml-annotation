@@ -1,11 +1,10 @@
 package core.xml;
 
-import bean.BeanDefinition;
+import mapdata.BeanDefinition;
 import config.BeanInfo;
 import config.PropertyInfo;
 import org.apache.commons.beanutils.BeanUtils;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
@@ -102,7 +101,7 @@ public class BeanFactoryImpl implements BeanFactory {
                 }
             }
         }
-        return null;
+        return obj;
     }
 
     /**

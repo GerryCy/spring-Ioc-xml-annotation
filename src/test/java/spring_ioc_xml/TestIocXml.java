@@ -10,6 +10,6 @@ public class TestIocXml {
 
         BeanFactory beanFactory = new BeanFactoryImpl("test.xml");
         PersonService personService = (PersonService)beanFactory.getBean("personService");
-        personService.getPersonInfo();
+        System.out.println(personService.getPersonInfo());
     }
 }

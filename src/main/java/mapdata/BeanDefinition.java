@@ -1,4 +1,4 @@
-package bean;
+package mapdata;
 
 import config.BeanInfo;
 import config.PropertyInfo;
