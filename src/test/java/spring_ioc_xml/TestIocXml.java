@@ -7,6 +7,7 @@ import service.PersonService;
 public class TestIocXml {
 
     public static void main(String[] args) {
+
         BeanFactory beanFactory = new BeanFactoryImpl("test.xml");
         PersonService personService = (PersonService)beanFactory.getBean("personService");
         personService.getPersonInfo();
