@@ -1,7 +1,7 @@
 package xmltomap;
 
-import mapdata.BeanDefinition;
-import config.BeanInfo;
+import core.xml_version.mapdata.BeanDefinition;
+import core.xml_version.config.BeanInfo;
 
 import java.util.Map;
 

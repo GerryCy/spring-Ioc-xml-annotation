@@ -1,4 +1,4 @@
-package config;
+package core.xml_version.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class BeanInfo {
     private String id;
     private String classPath;
     private String scope = "singleton"; //指定的scope
-    List<PropertyInfo> propertList = new ArrayList<PropertyInfo>();
+    private List<PropertyInfo> propertList = new ArrayList<PropertyInfo>();
 
     public String getId() {
         return id;

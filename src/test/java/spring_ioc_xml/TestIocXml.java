@@ -2,8 +2,8 @@ package spring_ioc_xml;
 
 import bean.DataSource;
 import bean.SqlSessionFactoryBean;
-import core.xml.BeanFactory;
-import core.xml.BeanFactoryImpl;
+import core.xml_version.beanfactory.BeanFactory;
+import core.xml_version.beanfactory.BeanFactoryImpl;
 import service.PersonService;
 
 public class TestIocXml {

@@ -1,8 +1,8 @@
-package core.xml;
+package core.xml_version.beanfactory;
 
-import mapdata.BeanDefinition;
-import config.BeanInfo;
-import config.PropertyInfo;
+import core.xml_version.mapdata.BeanDefinition;
+import core.xml_version.config.BeanInfo;
+import core.xml_version.config.PropertyInfo;
 import org.apache.commons.beanutils.BeanUtils;
 
 import java.lang.reflect.InvocationTargetException;

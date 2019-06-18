@@ -1,7 +1,7 @@
-package mapdata;
+package core.xml_version.mapdata;
 
-import config.BeanInfo;
-import config.PropertyInfo;
+import core.xml_version.config.BeanInfo;
+import core.xml_version.config.PropertyInfo;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;

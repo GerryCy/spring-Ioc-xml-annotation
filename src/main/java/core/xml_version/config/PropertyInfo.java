@@ -1,4 +1,4 @@
-package config;
+package core.xml_version.config;
 
 /**
  * xml中配置的bean的属性信息

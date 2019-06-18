@@ -1,4 +1,4 @@
-package core.xml;
+package core.xml_version.beanfactory;
 
 /**
  * 获取bean的接口，只一个方法
